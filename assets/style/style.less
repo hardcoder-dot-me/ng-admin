@@ -1,23 +1,29 @@
-* {
+@brand-primary: #2f4050;
+@brand-secondary: #19aa8d;
+
+*{
   box-sizing: border-box;
 }
-body,
-html {
+
+body, html{
   height: 100%;
 }
-.left-sidebar {
+
+.left-sidebar{
   width: 230px;
   min-height: 100%;
-  background: #2f4050;
+  background: @brand-primary;
   position: absolute;
-  border-right: 3px solid #19aa8d;
+  border-right: 3px solid @brand-secondary;
   z-index: 99;
 }
-.top-sidebar {
+
+.top-sidebar{
   background: #f4f4f4;
   border-bottom: 3px solid #e8e8e8;
   padding: 12px;
 }
-.main-wrapper {
+
+.main-wrapper{
   padding-left: 230px;
 }
